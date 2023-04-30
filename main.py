@@ -32,6 +32,7 @@ def get_expressions(expected_result: int, is_single_result: bool = False):
         # Exclude integers started with zero as it will throw Python syntax error
         # and also will not affect results
         if not expression.startswith('01'):
+            # Calculate result and if success add expression to the result list
             result = eval(expression)
             if result == expected_result:
                 success_result_list.append(expression)
