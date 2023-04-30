@@ -6,6 +6,7 @@ Function for finding all expression from '0123456789' string with pluses, minuse
 - ```is_single_result: bool``` - return only first success expression
 
 ## Running locally
-
-```python ./main.py```
+- ```git clone https://github.com/rodnoycry/expressions-finder.git```
+- ```cd expressions-finder```
+- ```python ./main.py```
     
